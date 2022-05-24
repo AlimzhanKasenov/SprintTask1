@@ -26,7 +26,8 @@
                     <button type="submit" class="btn btn-primary">Sign in</button>
                 </div>
             </div>
+        </div>
+    </fieldset>
 </form>
 </body>
 </html>
-1
