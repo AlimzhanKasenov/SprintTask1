@@ -12,7 +12,7 @@ public class DBmanager {
     static {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/tovary?useUnicode=true&serverTimezone=UTC", "root", "");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/tovary?useUnicode=true&serverTimezone=UTC", "root", "");
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -26,7 +26,7 @@ public class DBmanager {
             while (rs.next()){
                 Long id = rs.getLong("id");
                 String name = rs.getString("name");
-                String description = rs.getString("name");
+                String description = rs.getString("description");
                 int price = rs.getInt("price");
                 items.add(new Items(id, name, description, price));
             }

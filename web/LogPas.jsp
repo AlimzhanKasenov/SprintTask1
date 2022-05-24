@@ -14,8 +14,8 @@
             <div class="card-body text-success">
                 <form class="align-bottom w-75 l-5 mx-auto">
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Login</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Login">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
                     <p></p>
                 </div>
                 <div class="form-group">
