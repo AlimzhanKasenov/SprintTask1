@@ -7,7 +7,7 @@
     <%@ include file="head.jsp"%>
 </head>
 <body>
-    <%@include file="navbar.jsp"%>
+<%@include file="navbar.jsp"%>
 <div>
     <h2 class="text-center">Welcome to BITLAB SHOP</h2>
     <p class="text-black-50 text-center">Electronic devices with high quality and service</p>

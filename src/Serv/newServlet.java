@@ -24,16 +24,13 @@ public class newServlet extends HttpServlet {
         String email = request.getParameter("login");
         String password = request.getParameter("passwor");
         ArrayList<Users> arr = DBmanager.authorization();
-        boolean b = false;
         for (Users u : arr){
             if (u.getEmail().equals(email) && u.getPassword().equals(password)){
-                b = true;
+                request.setAttribute("users", u);
+                request.getRequestDispatcher("/vhod.jsp").forward(request, response);
             }
         }
-        request.setAttribute("users", b);
-
-
-
+        request.setAttribute("user", "true");
         request.getRequestDispatcher("/LogPas.jsp").forward(request, response);
     }
 }

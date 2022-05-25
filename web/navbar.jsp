@@ -2,7 +2,7 @@
     <form class="align-bottom w-75 l-5 mx-auto">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid w 75">
-                <a class="navbar-brand" href="Osnov.jsp">BITLAB SHOP</a>
+                <a class="navbar-brand" href="/">BITLAB SHOP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
