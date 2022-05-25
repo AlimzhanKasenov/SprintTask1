@@ -6,9 +6,8 @@
 </head>
 <body>
 <%@include file="navbar.jsp"%>
-<div>
-
+<div class="container mx-auto">
+  <h2 class="text-center">Вход выполнен.</h2>
 </div>
-
 </body>
 </html>
